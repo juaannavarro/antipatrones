@@ -82,4 +82,6 @@ main()
 
 ### 3.Justificación de cambios: Debes ser capaz de justificar los cambios que has hecho al código, explicando cómo estos cambios mejoran el código y cómo evitan las características de "Spaghetti Code". (20%)
 
-En este caso he creado varios métodos y un método principal que incluye a todos los anteriores, que es el calcular, ya que en el código original, la función calcular maneja múltiples operaciones matemáticas y el control de errores. . Después llamamos a un nuevo método que es el main donde ejecutaremos todo. Esto sí es un ejemplo de código fácil de seguir. Además el código original usa múltiples declaraciones if para determinar qué operación realizar. Esto puede volverse lioso y difícil de mantener a medida que agregamos más operaciones. En el código refactorizado, utilizamos un diccionario para mapear las cadenas de operación a sus respectivas funciones.
+En este caso he creado varios métodos y un método principal que incluye a todos los anteriores, que es el calcular, ya que en el código original, la función calcular maneja múltiples operaciones matemáticas y el control de errores.Después llamamos a un nuevo método que es el main donde ejecutaremos todo. Esto sí es un ejemplo de código fácil de seguir. 
+
+Además el código original usa múltiples declaraciones if para determinar qué operación realizar. Esto puede volverse lioso y difícil de mantener a medida que agregamos más operaciones. En el código refactorizado, utilizamos un diccionario para mapear las cadenas de operación a sus respectivas funciones.
