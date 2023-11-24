@@ -32,10 +32,10 @@ Las funciones deberían tener una sola responsabilidad, y esta función tiene mu
 
 ## Criterio de evaluación:
 
-Identificación de características de "Spaghetti Code": Debes ser capaz de identificar las características de "Spaghetti Code" en el código proporcionado. (20%)
+### 1.Identificación de características de "Spaghetti Code": Debes ser capaz de identificar las características de "Spaghetti Code" en el código proporcionado. (20%)
+Como hemos dicho antes, el spaghetti code es un ejemplo de código lioso, difícil de leer y seguir. Al ser un ejemplo de código tan simple y breve no se aprecia bien directamente en el código pero sí respecto al que he remodelado a continuación. En este caso he creado varios métodos y un método principal que incluye a todos los anteriores, que es el calcular. Después llamamos a un nuevo método que es el main donde ejecutaremos todo. Esto sí es un ejemplo de código fácil de seguir.
 
-
-Refactorización de código: Debes ser capaz de refactorizar el código para mejorar su legibilidad y mantenibilidad. Esto podría incluir la eliminación de la lógica de control basada en cadenas de texto, la modularización del código, y la mejora del manejo de errores. (60%)
+### Refactorización de código: Debes ser capaz de refactorizar el código para mejorar su legibilidad y mantenibilidad. Esto podría incluir la eliminación de la lógica de control basada en cadenas de texto, la modularización del código, y la mejora del manejo de errores. (60%)
 
 
 Justificación de cambios: Debes ser capaz de justificar los cambios que has hecho al código, explicando cómo estos cambios mejoran el código y cómo evitan las características de "Spaghetti Code". (20%)
