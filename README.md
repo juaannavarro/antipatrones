@@ -11,7 +11,7 @@ Dada una porción de código Python escrita en estilo "Spaghetti Code", se te pi
 
 Considera el siguiente fragmento de código:
 
-
+``` 
 def calcular(operacion, num1, num2):
     if operacion == 'suma':
         return num1 + num2
@@ -26,6 +26,8 @@ def calcular(operacion, num1, num2):
             print("No se puede dividir entre cero.")
     else:
         print("Operación no soportada.")
+
+```
 Las funciones deberían tener una sola responsabilidad, y esta función tiene muchas. También se pueden observar problemas como la falta de modularización, uso de cadenas de texto para la lógica de control, y falta de manejo de errores.
 
 Criterio de evaluación
